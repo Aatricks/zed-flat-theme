@@ -1,5 +1,5 @@
-id = "zed-flat-theme"
-name = "Flat Theme"
+id = "flat-themes"
+name = "Flat Themes"
 version = "0.2.0"
 schema_version = 1
 authors = ["Aatricks"]
