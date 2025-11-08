@@ -1,7 +1,7 @@
 id = "flat-theme"
 name = "Flat Theme"
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
-authors = ["Flat Theme Contributors"]
+authors = ["Aatricks"]
 description = "Flat dark theme for Zed - Clean, minimalist design with consistent colors"
 repository = "https://github.com/yourusername/zed-flat-theme"
