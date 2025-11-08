@@ -1,0 +1,7 @@
+id = "flat-theme"
+name = "Flat Theme"
+version = "0.1.0"
+schema_version = 1
+authors = ["Flat Theme Contributors"]
+description = "Flat dark theme for Zed - Clean, minimalist design with consistent colors"
+repository = "https://github.com/yourusername/zed-flat-theme"
