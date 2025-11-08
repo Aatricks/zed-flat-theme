@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="assets/HomeImage.png"/>
+</p>
+
 # Flat Theme for Zed
 
 A clean, minimalist theme collection for [Zed](https://zed.dev) based on the popular Flat Theme for VSCode, featuring three beautiful variants.
@@ -7,11 +11,23 @@ A clean, minimalist theme collection for [Zed](https://zed.dev) based on the pop
 ### Flat Gray (Dark)
 The original dark theme with a sleek gray background and teal accents.
 
+<details>
+    <img src="assets/Gray_demo.webp"/>
+</details>
+
 ### Flat Light
 A bright, clean light theme perfect for daytime coding.
 
+<details>
+    <img src="assets/Light_demo.webp"/>
+</details>
+
 ### Flat Frappé (Dark)
 Inspired by Catppuccin Frappé, featuring softer, pastel colors for reduced eye strain.
+
+<details>
+    <img src="assets/Frappe_demo.webp"/>
+</details>
 
 ## Features
 
@@ -88,10 +104,6 @@ These themes address common issues found in other themes:
    - **Flat Gray**: Classic dark theme with high contrast
    - **Flat Light**: Perfect for bright environments
    - **Flat Frappé**: Softer, easier on the eyes for extended coding sessions
-
-## Screenshots
-
-_Screenshots coming soon_
 
 ## Contributing
 
