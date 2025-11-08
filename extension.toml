@@ -4,4 +4,4 @@ version = "0.2.0"
 schema_version = 1
 authors = ["Aatricks"]
 description = "Flat dark theme for Zed - Clean, minimalist design with consistent colors"
-repository = "https://github.com/yourusername/zed-flat-theme"
+repository = "https://github.com/Aatricks/zed-flat-theme"
