@@ -4,7 +4,7 @@
 
 # Flat Theme for Zed
 
-A clean, minimalist theme collection for [Zed](https://zed.dev) based on the popular Flat Theme for VSCode, featuring three beautiful variants.
+A clean, minimalist theme collection for [Zed](https://zed.dev) based on my Flat Theme for VSCode, featuring three variants.
 
 ## Themes Included
 
@@ -115,14 +115,10 @@ MIT License
 
 ## Credits
 
-- Inspired by [Flat Theme for VSCode](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-FlatGray)
+- Inspired by [Flat Theme for VSCode](https://github.com/Aatricks/flat-theme)
 - Border design inspired by [Catppuccin](https://github.com/catppuccin/zed)
 - UI philosophy influenced by [Material Theme](https://github.com/material-theme/vsc-material-theme)
 
 ## Feedback
 
 If you have suggestions or find issues, please open an issue on GitHub.
-
----
-
-**Enjoy coding with Flat Theme!** 🎨
