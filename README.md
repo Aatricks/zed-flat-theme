@@ -4,7 +4,7 @@
 
 # Flat Theme for Zed
 
-A clean, minimalist theme collection for [Zed](https://zed.dev) based on my Flat Theme for VSCode, featuring three variants.
+A clean, minimalist theme collection for [Zed](https://zed.dev) based on my Flat Theme for VSCode, featuring three readability-tuned variants.
 
 ## Themes Included
 
@@ -31,44 +31,48 @@ Inspired by Catppuccin Frappé, featuring softer, pastel colors for reduced eye 
 
 ## Features
 
-- **Three Beautiful Variants**: Choose between dark gray, light, or Frappé aesthetics
+- **Three Purposeful Variants**: Choose between Flat Gray, Flat Light, and Flat Frappé
+- **Readability-First Hierarchy**: Clearer separation between chrome, panels, tabs, and editor surfaces
 - **Consistent Color Scheme**: Terminal colors match the rest of the IDE in all variants
-- **Clean Flat Design**: Minimal borders for a sleek, modern look - one clean slate of color
-- **Subtle Accents**: Each theme has its signature accent color for visual feedback
-- **Highlighted Borders**: Important UI elements like hover messages, errors, and warnings have distinct colored borders
-- **Clear Syntax Highlighting**: Well-balanced color palettes optimized for code readability
+- **Restrained Flat Design**: Minimal borders without collapsing active and inactive states into the same surface
+- **Subtle Accents**: Each theme keeps a signature accent color for focus and feedback
+- **Balanced Syntax Highlighting**: Semantic tokens carry the contrast, while punctuation stays quieter
 
 ## Color Palettes
 
-### Flat Gray (Dark)
-- **Background**: `#202124` - Dark gray
-- **Foreground**: `#CFD8DC` - Light gray
-- **Accent**: `#94E2D5` - Teal/Cyan
-- **Keywords**: `#C792EA` - Purple
-- **Functions**: `#82AAFF` - Blue
-- **Strings**: `#C3E88D` - Green
-- **Numbers**: `#F78C6C` - Orange
-- **Comments**: `#546E7A` - Muted gray
+Generated from `themes/source-theme.json`.
+
+<!-- GENERATED:palette:start -->
+### Flat Gray
+- **Background**: `#202124` - base editor canvas
+- **Foreground**: `#CFD8DC` - default editor text
+- **Accent**: `#94E2D5` - focus and UI feedback
+- **Keywords**: `#C792EA` - language keywords
+- **Functions**: `#89DDFF` - functions and methods
+- **Strings**: `#C3E88D` - strings and text literals
+- **Numbers**: `#F78C6C` - numbers and constants
+- **Comments**: `#80909A` - comments and doc comments
 
 ### Flat Light
-- **Background**: `#F5F5F5` - Light gray
-- **Foreground**: `#37474F` - Dark gray
-- **Accent**: `#80CBC4` - Teal
-- **Keywords**: `#AB47BC` - Purple
-- **Functions**: `#42A5F5` - Blue
-- **Strings**: `#7CB342` - Green
-- **Numbers**: `#FF7043` - Orange
-- **Comments**: `#90A4AE` - Muted gray
+- **Background**: `#FAFBFC` - base editor canvas
+- **Foreground**: `#31424A` - default editor text
+- **Accent**: `#80CBC4` - focus and UI feedback
+- **Keywords**: `#8E24AA` - language keywords
+- **Functions**: `#1976D2` - functions and methods
+- **Strings**: `#5F8F2E` - strings and text literals
+- **Numbers**: `#E0642B` - numbers and constants
+- **Comments**: `#60727B` - comments and doc comments
 
-### Flat Frappé (Dark)
-- **Background**: `#303446` - Soft dark blue-gray
-- **Foreground**: `#c6d0f5` - Soft white
-- **Accent**: `#ca9ee6` - Mauve/Purple
-- **Keywords**: `#ca9ee6` - Mauve
-- **Functions**: `#8caaee` - Blue
-- **Strings**: `#a6d189` - Green
-- **Numbers**: `#ef9f76` - Peach
-- **Comments**: `#838ba7` - Muted blue-gray
+### Flat Frappé
+- **Background**: `#303446` - base editor canvas
+- **Foreground**: `#c6d0f5` - default editor text
+- **Accent**: `#ca9ee6` - focus and UI feedback
+- **Keywords**: `#ca9ee6` - language keywords
+- **Functions**: `#99d1db` - functions and methods
+- **Strings**: `#a6d189` - strings and text literals
+- **Numbers**: `#ef9f76` - numbers and constants
+- **Comments**: `#96A0BE` - comments and doc comments
+<!-- GENERATED:palette:end -->
 
 ## Installation
 
@@ -92,22 +96,27 @@ Inspired by Catppuccin Frappé, featuring softer, pastel colors for reduced eye 
 
 ## What Makes This Different?
 
-These themes address common issues found in other themes:
+These themes focus on a few practical goals:
 
-1. **Terminal Consistency**: Unlike some themes that leave terminal colors undefined, all Flat Theme variants ensure your terminal matches your editor for a unified experience across all three themes.
+1. **Readable Hierarchy**: Tabs, panels, title bars, and editor surfaces are separated just enough to make focus states obvious without adding heavy borders.
 
-2. **Smart Borders**: Inspired by Catppuccin, all variants feature colored borders on hover messages, errors, warnings, and info popups that make them instantly recognizable.
+2. **Terminal Consistency**: All Flat Theme variants keep terminal colors aligned with the editor for a more unified workspace.
 
-3. **No Visual Clutter**: Following the Material Theme Darker philosophy, all UI borders are transparent. Each theme is truly one clean slate of color, letting your code take center stage.
+3. **Targeted Feedback**: Hover messages, errors, warnings, and info popups keep distinct colored borders so transient UI stays recognizable.
 
 4. **Multiple Aesthetics**: Choose the theme that matches your environment and preference:
-   - **Flat Gray**: Classic dark theme with high contrast
-   - **Flat Light**: Perfect for bright environments
-   - **Flat Frappé**: Softer, easier on the eyes for extended coding sessions
+   - **Flat Gray**: Neutral dark theme with stronger structure and teal accents
+   - **Flat Light**: Bright theme with clearer surface separation and calmer syntax accents
+   - **Flat Frappé**: Softer dark theme with pastel tones and improved long-session readability
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Development
+
+- Rebuild generated files with `python scripts/build_themes.py`
+- Verify generated files and contrast checks with `python scripts/build_themes.py --check`
 
 ## License
 
@@ -122,3 +131,7 @@ MIT License
 ## Feedback
 
 If you have suggestions or find issues, please open an issue on GitHub.
+
+## Notes
+
+- Screenshots in this README may lag behind the latest palette tuning. The JSON theme definitions are the source of truth.
